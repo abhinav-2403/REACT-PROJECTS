@@ -1,22 +1,13 @@
-import React,{useState,useEffect} from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import TodoForm from './Components/TodoForm';
-import TodoList from './Components/TodoList';
+import Board from './TicTacToeGame/Board';
 
+function App () {
 
-// advance react codes
-
-
- function App() {
   return (
-    <div className='todo-app'>
-
-      {/* <h1>Todo app</h1> */}
-
-      {/* <TodoForm/> */}
-      <TodoList/>
-
+    <div className="App">
+        <Board/>
     </div>
   );
 }
