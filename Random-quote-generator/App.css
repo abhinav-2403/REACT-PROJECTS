@@ -1,0 +1,20 @@
+.big-container{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+
+.container{
+  background-color: aliceblue;
+  height: 240px;
+  width: 600px;
+  margin: 240px auto auto auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 20px 15px 15px black;
+}
+
